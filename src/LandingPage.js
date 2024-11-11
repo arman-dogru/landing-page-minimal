@@ -2,28 +2,37 @@ import React from 'react';
 import './LandingPage.css';
 
 // Import your images here
-import logo from './images/instagram-logo.png'; // Lyfe logo
+import logo from './images/logo.png'; // Lyfe logo
 import instagramIcon from './images/instagram-logo.png'; // Instagram icon
 import iphoneMockup from './images/iphone-mockup.jpg'; // iPhone mockup image
 import bgImage1 from './images/bg-image1.jpg'; // Top left image
 import bgImage2 from './images/bg-image2.jpg'; // Top right image
 import bgImage3 from './images/bg-image3.jpg'; // Bottom left image
 import bgImage4 from './images/bg-image4.jpg'; // Bottom right image
-import bgImage5 from './images/bg-image5.png'; // Vertical center-right image
+import bgImage5 from './images/bg-image5.jpg'; // Vertical center-right image
+import xlogo from './images/x-logo.png'; // X logo
 
 function LandingPage() {
     return (
       <div className="landing-page">
         {/* Header */}
         <header className="header fade-in">
-          <h>LYFE</h>
+          <div className="header-content">
+            <img src={logo} alt="Lyfe Logo" className="lyfe-logo" />
+            <h1 className="header-heading">Lyfe</h1>
+          </div>
         </header>
   
         {/* Main Content */}
         <main className="main-content fade-in">
-          <a href="https://www.instagram.com/lyfeapp/" target="_blank" rel="noreferrer">
-              <img src={instagramIcon} alt="Instagram" className="instagram-icon" />
-          </a>
+          <div className="social-icons">
+            <a href="https://www.instagram.com/lyfeapp/" target="_blank" rel="noreferrer">
+                <img src={instagramIcon} alt="Instagram" className="social-icon" />
+            </a>
+            <a href="https://www.instagram.com/lyfeapp/" target="_blank" rel="noreferrer">
+                <img src={xlogo} alt="Instagram" className="social-icon" />
+            </a>
+          </div>
           <h1 className="main-heading">Be real. Be Calm.</h1>
           <p className="subheading">This is a test of heights by AI</p>
           <a href="https://forms.fillout.com/t/2HnnrSfJU9us" target="_blank" rel="noreferrer">

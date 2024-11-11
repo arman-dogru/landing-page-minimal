@@ -25,9 +25,20 @@ body, html, #root {
     z-index: 10; /* Increased z-index to ensure visibility */
 }
 
-.logo {
-    height: 40px;
-    filter: invert(100%);
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.lyfe-logo {
+    display: flex;
+    align-items: center;
+    scale: 0.5;
+}
+
+.header-heading {
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Main Content */
@@ -39,11 +50,17 @@ body, html, #root {
     flex-grow: 1; /* Allows content to expand */
 }
 
-.instagram-icon {
-    height: 60px;
-    margin-bottom: 20px;
-    filter: invert(100%);
+.social-icon {
+    height: 25px;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 
 .main-heading {
     font-size: 3em;
@@ -128,6 +145,10 @@ body, html, #root {
     border-radius: 5%;
 }
 
+.lyfe-logo {
+    height: 100px;
+}
+
 /* Footer */
 .footer {
     position: absolute;
@@ -161,10 +182,15 @@ body, html, #root {
         margin-top: 20px;
     }
 
-    .instagram-icon {
-        height: 25px;
+    .social-icon {
+        height: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
         margin-bottom: 10px;
-        filter: invert(100%);
     }
 
     .main-heading {
@@ -195,7 +221,7 @@ body, html, #root {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 250px;
+        width: 350px;
         z-index: 1;
     }
 
@@ -234,7 +260,7 @@ body, html, #root {
 
 /* Apply the animation to the desired elements */
 .header,
-.instagram-icon,
+.social-icon,
 .main-heading,
 .subheading,
 .cta-button,
@@ -248,7 +274,7 @@ body, html, #root {
 .header {
     animation-delay: 0.1s;
 }
-.instagram-icon {
+.social-icon {
     animation-delay: 0.2s;
 }
 .main-heading {
