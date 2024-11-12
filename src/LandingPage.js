@@ -23,21 +23,34 @@ function LandingPage() {
           </div>
         </header>
   
-        {/* Main Content */}
         <main className="main-content fade-in">
           <div className="social-icons">
             <a href="https://www.instagram.com/ideal.lyfe/profilecard/?igsh=b29tcnJ6ZDA5enNl" target="_blank" rel="noreferrer">
-                <img src={instagramIcon} alt="Instagram" className="social-icon" />
+              <img src={instagramIcon} alt="Instagram" className="social-icon" />
             </a>
             <a href="https://x.com/LyfeisSocial" target="_blank" rel="noreferrer">
-                <img src={xlogo} alt="Instagram" className="social-icon" />
+              <img src={xlogo} alt="X" className="social-icon" />
             </a>
           </div>
           <h1 className="main-heading">Be real. Be Calm.</h1>
           <p className="subheading">This is a test of heights by AI</p>
           <a href="https://forms.fillout.com/t/2HnnrSfJU9us" target="_blank" rel="noreferrer">
-              <button className="cta-button">Get Early Access</button>
+            <button className="cta-button">Get Early Access</button>
           </a>
+
+          {/* Mobile Footer Content */}
+          <div className="mobile-footer-content">
+            <div className="social-icons">
+              <a href="https://www.instagram.com/ideal.lyfe/profilecard/?igsh=b29tcnJ6ZDA5enNl" target="_blank" rel="noreferrer">
+                <img src={instagramIcon} alt="Instagram" className="social-icon" />
+              </a>
+              <a href="https://x.com/LyfeisSocial" target="_blank" rel="noreferrer">
+                <img src={xlogo} alt="X" className="social-icon" />
+              </a>
+            </div>
+            <p>Location: Ottawa, Canada</p>
+            <p>Email: info.socialyfe@gmail.com</p>
+          </div>
         </main>
   
         {/* Background Images */}
@@ -54,7 +67,7 @@ function LandingPage() {
           <img src={iphoneMockup} alt="iPhone Mockup" className="iphone-mockup" />
         </div>
   
-        {/* Footer */}
+        {/* Footer for Desktop */}
         <footer className="footer fade-in">
           <p>Location: Ottawa, Canada</p>
           <p>Email: info.socialyfe@gmail.com</p>
