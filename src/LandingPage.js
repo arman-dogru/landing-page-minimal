@@ -26,17 +26,17 @@ function LandingPage() {
         {/* Main Content */}
         <main className="main-content fade-in">
           <div className="social-icons">
-            <a href="https://www.instagram.com/lyfeapp/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/ideal.lyfe/profilecard/?igsh=b29tcnJ6ZDA5enNl" target="_blank" rel="noreferrer">
                 <img src={instagramIcon} alt="Instagram" className="social-icon" />
             </a>
-            <a href="https://www.instagram.com/lyfeapp/" target="_blank" rel="noreferrer">
+            <a href="https://x.com/LyfeisSocial" target="_blank" rel="noreferrer">
                 <img src={xlogo} alt="Instagram" className="social-icon" />
             </a>
           </div>
           <h1 className="main-heading">Be real. Be Calm.</h1>
           <p className="subheading">This is a test of heights by AI</p>
           <a href="https://forms.fillout.com/t/2HnnrSfJU9us" target="_blank" rel="noreferrer">
-              <button className="cta-button">Early access</button>
+              <button className="cta-button">Get Early Access</button>
           </a>
         </main>
   
@@ -56,8 +56,8 @@ function LandingPage() {
   
         {/* Footer */}
         <footer className="footer fade-in">
-          <p>LOCATION: hello@reallygreatsite.com</p>
-          <p>EMAIL: hello@reallygreatsite.com</p>
+          <p>Location: Ottawa, Canada</p>
+          <p>Email: info.socialyfe@gmail.com</p>
         </footer>
       </div>
     );

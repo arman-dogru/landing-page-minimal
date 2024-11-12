@@ -57,7 +57,7 @@ body, html, #root {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 20px;
 }
 
@@ -77,12 +77,13 @@ body, html, #root {
 .cta-button {
     background-color: transparent;
     color: #fff;
-    border: 1px solid #fff;
-    padding: 15px 30px;
+    border: 2px solid #fff;
+    padding: 15px 90px;
     border-radius: 30px;
-    font-size: 1em;
+    font-size: 1.3em;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: 40px;
 }
 
 .cta-button:hover {
@@ -93,7 +94,7 @@ body, html, #root {
 /* Phone Mockup */
 .phone-mockup {
     position: absolute;
-    width: 300px;
+    width: 400px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     top: 50%; /* Center */
@@ -111,36 +112,36 @@ body, html, #root {
 }
 
 .image1 {
-    top: 10%;
-    left: 10%;
-    height: 30%;
-    border-radius: 5%;
-}
-
-.image2 {
-    top: 5%;
-    right: 10%;
-    height: 30%;
-    border-radius: 5%;
-}
-
-.image3 {
-    bottom: 15%;
-    left: 5%;
+    top: 15%;
+    left: 3%;
     height: 30%;
     border-radius: 5%;
 }
 
 .image4 {
+    top: 5%;
+    right: 0%;
+    height: 29%;
+    border-radius: 5%;
+}
+
+.image3 {
+    bottom: 5%;
+    left: 12%;
+    height: 40%;
+    border-radius: 5%;
+}
+
+.image2 {
     bottom: 30%;
-    right: 0;
+    right: 6%;
     height: 30%;
     border-radius: 5%;
 }
 
 .image5 {
-    bottom: 25%;
-    right: 25%;
+    bottom: -5%;
+    right: 28%;
     height: 30%;
     border-radius: 5%;
 }
@@ -184,13 +185,16 @@ body, html, #root {
 
     .social-icon {
         height: 20px;
+        
     }
 
     .social-icons {
         display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 10px;
+        justify-content: center;  
+        margin-top: 20px;
+        gap: 20px;
+        
+        
     }
 
     .main-heading {
@@ -206,16 +210,16 @@ body, html, #root {
 
     .cta-button {
         background-color: #fff;
-        color: #000;
+        color: #000000;
         border: none;
-        padding: 10px 20px;
+        padding: 15px 40px;
         border-radius: 25px;
-        font-size: 0.9em;
+        font-size: 1.2em;
         cursor: pointer;
         transition: all 0.3s ease;
-        margin-top: 10px;
+        margin-top: 80px;
     }
-
+   
     .phone-mockup {
         position: absolute;
         top: 50%;
@@ -239,6 +243,7 @@ body, html, #root {
         font-size: 0.7em;
         position: absolute;
         bottom: 10px;
+        left: 0%;
     }
 
     .footer p {
