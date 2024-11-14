@@ -202,7 +202,7 @@ body, html, #root {
     .main-content {
         top: 15%;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .social-icon {
@@ -217,12 +217,14 @@ body, html, #root {
     .main-heading {
         font-size: 2em;
         margin: 0;
+        padding: 10px;
     }
 
     .subheading {
         font-size: 0.9em;
         color: #aaa;
-        margin: 10px 0 20px 0;
+        margin: 0px 0 20px 0;
+        padding: 20px;
     }
 
     .cta-button {
@@ -234,7 +236,7 @@ body, html, #root {
         font-size: 1.2em;
         cursor: pointer;
         transition: all 0.3s ease;
-        margin-top: 40px;
+        margin-top: 0px;
     }
    
     .phone-mockup {

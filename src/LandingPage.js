@@ -32,8 +32,8 @@ function LandingPage() {
               <img src={xlogo} alt="X" className="social-icon" />
             </a>
           </div>
-          <h1 className="main-heading">Be real. Be Calm.</h1>
-          <p className="subheading">This is a test of heights by AI</p>
+          <h1 className="main-heading">Moments Made Together.</h1>
+          <p className="subheading">Join a community where moment finds a place and every story a connection.</p>
           <a href="https://forms.fillout.com/t/2HnnrSfJU9us" target="_blank" rel="noreferrer">
             <button className="cta-button">Get Early Access</button>
           </a>
